@@ -1,4 +1,10 @@
 {
   "name":"io",
-  "definition": "Information Input and Output."
+  "path": "/io",
+  "version": "0.0.2",
+  "definition": "Information Input and Output.",
+  "dependencies": {
+    "/io/tech/git": ">=2.7.9",
+    "/io/tech/gpg": ">=2.0.0"
+  }
 }
